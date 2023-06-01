@@ -1,48 +1,9 @@
 @import "reset.css";
 
+/* screens */
+@import "screens/header.css";
+
 html,body {
     height: 1000vh;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: #ffce32;
-    padding: 15px 40px;
-    box-sizing: border-box;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.menu__column > h3 {
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.search {
-    background-color: white;
-
-    border: 1px solid rgba(0,0,0,0.1);
-    /* border-radius: 50px; */
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 60px;
-}
-
-.search button {
-    background-color: white;
-    border: none;
-}
-
-.search input {
-    border: none;
-    margin: 20px;
-
-}
