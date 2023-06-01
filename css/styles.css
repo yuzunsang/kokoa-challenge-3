@@ -12,6 +12,21 @@ html,body {
     height: 1000vh;
 }
 
+/* to prevent intrusion into the header */
+/* please edit here when you add new components or screens */
+*:not(header),
+*:not(section) {
+    z-index: -1;
+}
+
+header {
+    z-index: 2;
+}
+
+section {
+    z-index: 1;
+}
+
 @keyframes hideSplashScreen {
     from {
         opacity: 1;
@@ -23,6 +38,7 @@ html,body {
 }
 
 #splash-screen {
+    z-index: 3;
     background-color: #fcdf7f;
     position: absolute;
     height: 100vh;
