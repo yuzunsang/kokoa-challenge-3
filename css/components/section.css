@@ -8,6 +8,10 @@
     margin: 20px 0;
 }
 
+.section > h2:first-child {
+    padding-top: 20px;
+}
+
 .section__info {
     display: flex;
 }
