@@ -1,4 +1,9 @@
 @import "reset.css";
+@import "variables.css";
+
+/* components */
+@import  "components/section.css";
+@import  "components/alt-section.css";
 
 /* screens */
 @import "screens/header.css";
@@ -6,4 +11,3 @@
 html,body {
     height: 1000vh;
 }
-

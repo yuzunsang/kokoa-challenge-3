@@ -1,0 +1,74 @@
+.section {
+    margin: 50px 30px;
+}
+
+.section > h2 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.section__info {
+    display: flex;
+}
+
+.section__column:nth-child(odd) {
+    margin-right: 15px;
+}
+
+.section__image {
+    width: 150px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.section__column > h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.section__column > h4, p {
+    margin-top: 10px;
+    opacity: 0.3;
+}
+
+.fa-star {
+    color: var(--mustard);
+    margin-top: 10px;
+}
+
+.section__hashtag {
+    margin-top: 30px;
+}
+
+.section__hashtag > span {
+    background-color: rgba(0,0,0,0.05);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.section__ctrl-btn {
+    margin-top: 30px;
+}
+
+.section__ctrl-btn button:hover {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.section__ctrl-btn button:first-child {
+    background-color: var(--mustard);
+    border: none;
+    padding: 10px 12px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.section__ctrl-btn button:last-child {
+    background-color: black;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+.alt-section__info {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.alt-section__column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.alt-section__image {
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+}

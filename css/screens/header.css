@@ -2,7 +2,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: #ffce32;
+    background-color: var(--mustard);
     padding: 25px 40px;
     box-sizing: border-box;
 }
