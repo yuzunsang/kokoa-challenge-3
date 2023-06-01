@@ -14,11 +14,6 @@ html,body {
 
 /* to prevent intrusion into the header */
 /* please edit here when you add new components or screens */
-*:not(header),
-*:not(section) {
-    z-index: -1;
-}
-
 header {
     z-index: 2;
 }
